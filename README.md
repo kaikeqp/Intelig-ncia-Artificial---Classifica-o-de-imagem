@@ -1,55 +1,54 @@
-# Template para desenvolvimento e entrega de NAC
+# Image Classification - Horse or Human
+### Artificial Intelligence - Deep Learning - Neural Network
 
-Esse é um guia simples, o grupo pode e deve modificar o template conforme necessidade. 
+**Grupo**
 
-# Nome do projeto
+André dos Santos Menezes de Souza
+RM: 88112
 
-**nome dos alunos:** 
+Giulio Cesar Costa Bernardi
+RM: 86993
+        
+Kaike de Santana Queiroz Ferreira
+RM: 88473
 
-**Turma:**
+Raissa Rassilan
+RM: 89011
 
-**Ano:**
+**Turma** 2TDSA
 
-## Objetivo / descrição do Projeto
+**Ano** 2022
 
-Explique de forma clara qual o objeto deste projeto, para que serve e comente as principais tecnologias utilizadas. 
+## Descrição
 
-## Diagrama do projeto
+Modelo deep learning que classifica imagem entre cavalo e humano com alta precisão, utilizando bibliotecas como tensorflow e keras, e técnicas de performance como rescaling, transfer-learning e augmentation.
+## Imagens
 
-Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
-
-<img src="/imagem.jpg" width="550">
-
+<img src="https://user-images.githubusercontent.com/69649552/165937183-c2f4a82d-8f57-41dd-9273-41ce3b79a3a6.png" width="800">
+----------------------------------------------------------------------------------------------------------------------------
+<img src="https://user-images.githubusercontent.com/69649552/165937190-b3927dd6-6e36-4245-adf3-710684b9e93e.png" width="900">
 
 ## Como usar 
 
-Explique como rodar o seu projeto. Quais programas instalar, como configurar... 
+*Linguagem:*
+* Python
 
-* Pode ser utilizado marcadores
-* Para ajudar na formatação
+*Bibliotecas:*
+* Tensorflow
+* MatplotLib
+* Numpy
+* Image
 
-Ou qualquer outra tabulação:
 
-- [x] Youtube
-- [ ] Facebook 
-- [x] Instagram
+Para predizer uma imagem, coloque a url dela na função que está localizada no final do arquivo do projeto ( conforme imagem acima ).
 
-Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
+*Para clonar esse repositório:*
 
-    cd /home/iot
-    git clone https://github.com/arnaldojr/templatenac
-    cd templatenac
+    git clone https://github.com/kaikeqp/artificial_intelligence-image_classification
+    cd artificial_intelligence-image_classification
     ls
-
-
-## Link de vídeo demonstração
-
-Adicione o link para assistir ao vídeo do projeto funcionando.
-
-[Link para o video youtube](https://www.youtube.com/watch?v=xva71wynxS0)
 
 
 ### Referências 
 
-* [mastering-markdown](https://guides.github.com/features/mastering-markdown/)
-* [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Kaggle datasets](https://www.kaggle.com/datasets/sanikamal/horses-or-humans-dataset)
